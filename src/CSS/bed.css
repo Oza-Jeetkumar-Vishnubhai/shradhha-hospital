@@ -1,0 +1,83 @@
+body{
+    overflow-x: hidden;
+}
+.floor{
+    background-image: url('../Component/Images/floor.png');
+}
+.machine{
+    height: 100px;
+    width: 100px;
+    background-color: cadetblue;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.machine-b{
+    margin-top:135px;
+}
+.machine,.machine-b{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bed{
+    background-color: rgb(223, 199, 169);
+    height: 350px;
+    width: 220px;
+    margin: 0 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.full-bed{
+    display: flex;
+    margin: 15px 0;
+    justify-content: center;
+}
+.footer{
+    display: flex;
+}
+.footer div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.door{
+    background-color: rgb(218, 106, 106);
+    height:100px;
+    width:15%;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px; 
+}
+.door:hover{
+    background-color: brown;
+}
+.admit{
+    background-color: rgb(127, 197, 127);
+    border: 2px solid black;
+    border-radius: 10px;   
+    width: 100%; 
+    cursor: pointer;
+}
+.admit:hover{
+    background-color: green;
+}
+.discharge{
+    height:50px;
+    width:150px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-bottom: 25px;
+    box-shadow: greenyellow 3px 3px 5px;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.discharge:hover{
+    cursor: pointer;
+    border: 2px solid red;
+}
+.discharge p{
+    margin-top:10px;
+}

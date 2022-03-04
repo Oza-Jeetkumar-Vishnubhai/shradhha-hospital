@@ -1,0 +1,27 @@
+.admit-body{
+    background-image: url('../Component/Images/reception.jpg');
+    background-size: cover;
+    background-color: gray;
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.frm{
+    background-color: rgb(103 163 215 / 59%);
+    border: 2px solid rgb(27 255 0);
+    border-radius: 10px;
+    box-shadow: rgb(110 247 127 / 59%) 5px 5px 5px;
+}
+table td{
+    color:white;
+    flex-wrap: wrap;
+}
+table tr td:first-child{
+    text-align: center;
+}
+input,textarea,select{
+    border-radius:5px;
+    margin:2px;
+}

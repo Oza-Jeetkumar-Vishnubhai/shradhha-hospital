@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Admit from './Component/Admit'
+import Room from './Component/Room'
+import Home from './Component/Home'
+import Discharge from './Component/Discharge'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import MedicalStore from './Component/MedicalStore'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{"height":"100vh"}}>
+      <Router>
+        <Switch>
+          <Route exact path="/">
+            <Home/>
+          </Route>
+          <Route exact path="/room">
+            <Room />
+          </Route>
+          <Route exact path="/admit">
+            <Admit />
+          </Route>
+          <Route exact path="/discharge">
+            <Discharge/>
+          </Route>
+          <Route exact path="/medical-store">
+            <MedicalStore/>
+          </Route>
+        </Switch>
+      </Router>
     </div>
-  );
+  )
 }
-
-export default App;

@@ -1,0 +1,78 @@
+.medical-store{
+    background-image: url('../Component/Images/medical store.png');
+    background-size: 100% 100%;
+    background-attachment :fixed;
+    height:100%;
+    overflow: hidden;
+}
+.blocks{
+    display: flex;
+    height: 85%;
+}
+.heading,.total{
+    height:7.5%;
+}
+.leftMed,.rightMed{
+    height:90%;
+    width:45%;
+    background-color: rgba(240, 248, 255, 0.8);
+    margin: auto;
+    border-radius: 30px;
+    overflow-y: auto;
+}
+.inputs{
+    margin:1%;
+    display: flex;
+    justify-content: center;
+}
+.search{
+    width:50%;
+}
+.list{
+    height:80%;
+    overflow-y: auto;
+    margin:0 10%;
+}
+.lists p{
+    margin:5px;
+    width:90%;
+    padding:4px;
+    display: inline-block;
+}
+.list::-webkit-scrollbar,.rightMed::-webkit-scrollbar,.leftMed::-webkit-scrollbar,.cards::-webkit-scrollbar{
+    width:10px;
+    margin-right:15%;
+}
+.list::-webkit-scrollbar-thumb,.rightMed::-webkit-scrollbar-thumb,.leftMed::-webkit-scrollbar-thumb,.cards::-webkit-scrollbar-thumb{
+    background-color:rgba(0, 0, 0, 0.432);
+    border-radius: 40%;
+}
+.list::-webkit-scrollbar-track,.rightMed::-webkit-scrollbar-track,.leftMed::-webkit-scrollbar-track,.cards::-webkit-scrollbar-track{
+    background-color: gray;
+}
+.cards{
+    height:250px;
+    width:80%;
+    margin: 10px auto;
+    border-radius: 5px;
+    /* background-color: #9facb5; */
+    background-color: greenyellow;
+    overflow-y: auto;
+}
+.heading b{
+    margin: auto;
+}
+.checkbox{
+    height:20px;
+    width:20px;
+    cursor: pointer;
+}
+.medname{
+    /* border:2px solid red; */
+    background-color:#6ce9f6ad;
+    border-radius:10px;
+}
+.num-inp{
+    width:15%;
+    margin:0 5px;
+}

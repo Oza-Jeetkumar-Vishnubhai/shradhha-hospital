@@ -1,0 +1,17 @@
+{
+  "name": "hospital",
+  "version": "1.0.0",
+  "description": "This is an amazing Hospital management project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Jeet Oza",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "mongoose": "^6.0.12",
+    "nodemailer": "^6.7.2"
+  }
+}
